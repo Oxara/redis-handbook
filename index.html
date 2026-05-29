@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redis Geliştirici El Kitabı — Türkçe Production Reference</title>
-    <meta name="description" content="Kapsamlı Türkçe Redis 8 / .NET 9 geliştirici el kitabı. Caching, pub/sub, data structures, clustering, Lua scripting ve production best practices. Temel'den uzman seviyeye.">
+    <meta name="description" content="Kapsamlı Türkçe Redis 8 / .NET 10 geliştirici el kitabı. Caching, pub/sub, data structures, clustering, Lua scripting ve production best practices. Temel'den uzman seviyeye.">
     <meta name="keywords" content="Redis, .NET, C#, caching, pub/sub, data structures, cluster, Lua, StackExchange.Redis, Türkçe, el kitabı, handbook">
     <meta name="author" content="Erdem Özkara">
     <meta name="robots" content="index, follow">
@@ -13,7 +13,7 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Redis Geliştirici El Kitabı">
-    <meta property="og:description" content="Kapsamlı Türkçe Redis 8 / .NET 9 referansı — Temel'den uzman seviyeye, tek sayfada. Caching, pub/sub, cluster, Lua scripting.">
+    <meta property="og:description" content="Kapsamlı Türkçe Redis 8 / .NET 10 referansı — Temel'den uzman seviyeye, tek sayfada. Caching, pub/sub, cluster, Lua scripting.">
     <meta property="og:url" content="https://oxara.github.io/redis-handbook/">
     <meta property="og:site_name" content="Oxara Developer Handbooks">
     <meta property="og:locale" content="tr_TR">
@@ -22,7 +22,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Redis Geliştirici El Kitabı">
-    <meta name="twitter:description" content="Kapsamlı Türkçe Redis 8 / .NET 9 referansı — Caching, pub/sub, cluster, Lua scripting.">
+    <meta name="twitter:description" content="Kapsamlı Türkçe Redis 8 / .NET 10 referansı — Caching, pub/sub, cluster, Lua scripting.">
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -30,7 +30,7 @@
       "@context": "https://schema.org",
       "@type": "TechArticle",
       "headline": "Redis Geliştirici El Kitabı",
-      "description": "Kapsamlı Türkçe Redis 8 / .NET 9 geliştirici referansı. Caching, pub/sub, data structures, clustering, Lua scripting ve production best practices.",
+      "description": "Kapsamlı Türkçe Redis 8 / .NET 10 geliştirici referansı. Caching, pub/sub, data structures, clustering, Lua scripting ve production best practices.",
       "author": {"@type": "Person", "name": "Erdem Özkara", "url": "https://github.com/Oxara"},
       "publisher": {"@type": "Organization", "name": "Oxara"},
       "url": "https://oxara.github.io/redis-handbook/",
@@ -45,7 +45,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark-dimmed.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark-dimmed.min.css">
     <style>
         :root {
             --bg: #0f1117;
@@ -243,7 +243,7 @@
         <button class="home-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Başa dön">⌂</button>
         <div class="header-brand">
             <h1>Redis Backend Handbook</h1>
-            <span>.NET Core Implementation Guide &mdash; Redis 8 &bull; .NET 9 &bull; StackExchange.Redis</span>
+            <span>.NET Core Implementation Guide &mdash; Redis 8 &bull; .NET 10 &bull; StackExchange.Redis</span>
         </div>
         <div class="header-spacer"></div>
         <div class="search-box" style="width:320px" role="search">
@@ -263,17 +263,17 @@
         </nav>
         <main class="content" id="content" role="main"></main>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.1/marked.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/csharp.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/json.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/bash.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/yaml.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/lua.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/17.0.6/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/csharp.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/json.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/bash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/yaml.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/lua.min.js"></script>
     <script>
 const MARKDOWN_CONTENT = `# Redis Backend Handbook — .NET Core Implementation Guide
 
-> **Redis 8** · **.NET 9** · **StackExchange.Redis 2.8+** · Son güncelleme: Mayıs 2026
+> **Redis 8** · **.NET 10** · **StackExchange.Redis 2.13+** · Son güncelleme: Mayıs 2026
 > Her bölüm: Kavram → Redis CLI → .NET Core implementasyonu
 
 ---
@@ -698,7 +698,7 @@ public class StringOperationsService
 
 > ⚠️ **Cache Stampede:** Yukarıdaki \`GetOrSetAsync\` basit implementasyondur. Yoğun trafikte aynı key için eşzamanlı N request gelirse hepsi cache miss yaşar → N kez DB'ye gider. Çözüm: lock-based double-check pattern (Caching Patterns bölümündeki \`GetWithStampedeProtectionAsync\` örneğine bak).
 
-> 🔗 **İlgili:** HybridCache (.NET 9) — stampede protection dahil, Caching Patterns bölümünde. | Client-Side Caching — L1+L2 invalidation pattern'i.
+> 🔗 **İlgili:** HybridCache (.NET 9+) — stampede protection dahil, Caching Patterns bölümünde. | Client-Side Caching — L1+L2 invalidation pattern'i.
 
 ---
 
@@ -1429,7 +1429,7 @@ public class ProductService
 }
 \`\`\`
 
-| Özellik | IDistributedCache | HybridCache (.NET 9) |
+| Özellik | IDistributedCache | HybridCache (.NET 9+) |
 |---------|-------------------|----------------------|
 | L1 + L2 | Manuel impl. | Built-in |
 | Stampede protection | Yok | Otomatik |
@@ -2456,6 +2456,8 @@ public class OrderProcessor
 Tek Redis instance'da lock alan yukarıdaki pattern, o instance çökerse lock'u kaybeder. **Redlock** algoritması N bağımsız Redis node'undan N/2+1 quorum ile lock alır.
 
 > ⚠️ **Ne zaman Redlock gerekir?** Sadece Redis master'un çökmesi durumunda bile lock garantisinin devam etmesi gereken senaryolar için. Çoğu uygulamada tek instance lock yeterlidir — Redlock karmaşıklık ekler.
+
+> ⚠️ **RedLock.net paketi Nisan 2022'den beri güncellenmemiştir** (4+ yıl). Production'da kullanıyorsanız fork/maintain riski değerlendirin veya kendi Redlock implementasyonunuzu StackExchange.Redis üzerinde yazın.
 
 \`\`\`bash
 dotnet add package RedLock.net
@@ -3785,7 +3787,7 @@ builder.Services.AddResiliencePipeline("redis", builder =>
 
 ---
 
-## SNe Zaman Hangi Güvenlik Katmanı
+## Ne Zaman Hangi Güvenlik Katmanı
 
 | ✅ Kullan | ❌ Kullanma | Gerçek Hayat |
 |-----------|------------|--------------|
@@ -3797,7 +3799,7 @@ builder.Services.AddResiliencePipeline("redis", builder =>
 
 > 💡 **Gerçek hayat senaryosu — Healthcare SaaS:** HIPAA compliance → TLS zorunlu + ACL ile audit trail + her microservice ayrı user. Bir servis compromise olsa bile diğer tenant verisine erişemez.
 
-### ecurity — Authentication, ACL & TLS 🔴
+### Security — Authentication, ACL & TLS 🔴
 
 ### Şifre Atama (requirepass)
 
@@ -4073,8 +4075,6 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(
 | 2 | \`maxmemory-policy\` = allkeys-lru | Otomatik eviction |
 | 3 | AOF + RDB hybrid | Veri güvenliği |
 | 4 | ACL user/pass | Yetkisiz erişim |
-> 🔗 **İlgili:** [Connection Pooling & Performans](#connection-pooling--performans) · [Cluster Mode](#cluster-mode--sharding) · [Monitoring & Observability](#monitoring--observability)
-
 | 5 | TLS aktif | Şifreli iletişim |
 | 6 | Private network | Public erişim yok |
 | 7 | FLUSHALL/CONFIG disable | Kazara silme |
@@ -4086,6 +4086,8 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(
 | 13 | RDB backup → S3/Blob (cron) | Disaster recovery |
 | 14 | Backup restore testi (aylık) | Backup'ın gerçekten çalıştığını doğrula |
 | 15 | \`slowlog-log-slower-than 10000\` | Yavaş komutları logla (10ms+) |
+
+> 🔗 **İlgili:** [Connection Pooling & Performans](#connection-pooling--performans) · [Cluster Mode](#cluster-mode--sharding) · [Monitoring & Observability](#monitoring--observability)
 
 ---
 
@@ -6379,7 +6381,7 @@ Hangi senaryo → hangi Redis yapısı → hangi .NET metodu? Tek bakışta kara
 
 ---
 
-*Kaynak: [Redis Docs](https://redis.io/docs/latest/) · [StackExchange.Redis](https://stackexchange.github.io/StackExchange.Redis/) · Redis 8 GA*
+*Kaynak: [Redis Docs](https://redis.io/docs/latest/) · [StackExchange.Redis](https://stackexchange.github.io/StackExchange.Redis/) · Redis 8.8 GA · .NET 10 LTS*
 
 `;
     </script>

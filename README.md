@@ -6,7 +6,7 @@
 
 # Redis Geliştirici El Kitabı
 
-**Kapsamlı Türkçe Redis 8 / .NET 9 referansı** — Temel'den uzman seviyeye, tek sayfada.
+**Kapsamlı Türkçe Redis 8 / .NET 10 referansı** — Temel'den uzman seviyeye, tek sayfada.
 
 🌐 **[Canlı Site → oxara.github.io/redis-handbook](https://oxara.github.io/redis-handbook/)**
 
