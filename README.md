@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://oxara.github.io/redis-handbook/">
+    <img src="og-image.svg" alt="Redis Geliştirici El Kitabı" width="100%" />
+  </a>
+</p>
+
 # Redis Geliştirici El Kitabı
 
 **Kapsamlı Türkçe Redis 8 / .NET 9 referansı** — Temel'den uzman seviyeye, tek sayfada.
